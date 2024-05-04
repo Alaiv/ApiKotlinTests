@@ -17,7 +17,7 @@ import steps.addPet
 
 @Epic("Питомец")
 @Feature("Создание питомца")
-class AddPetTest {
+class AddPetTest : BaseTest() {
 
     @Test
     @Severity(SeverityLevel.BLOCKER)
